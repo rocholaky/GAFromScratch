@@ -1,5 +1,5 @@
 # RN-y-AG
-# Por Roberto Cholaky y Ricardo Asenjo.
+# Por Roberto Cholaky.
 
 En el presente repositorio se muestran los resultados obtenidos después de realizar la tarea 3: 
 Para correr este código solamente se necesitan las siguiente librerías
