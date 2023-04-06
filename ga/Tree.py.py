@@ -269,47 +269,4 @@ class tree_factory:
             self.set_tree_levels(atree.right, prev_level=prev_level + 1)
 
 
-"""
-treeFactory = tree_factory(['x', 'y', 'z'], 3)
-the_tree = treeFactory.generate_tree()
-treeFactory.set_tree_index(the_tree)
-"""
-
-'''
-
-print(the_tree.print_tree())
-print(the_tree.print_order())
-print(the_tree.get_level(1))
-print(the_tree.is_valid_index(4))
-inputx = float(input('input x'))
-inputy = float(input('input y'))
-inputz = float(input('input z'))
-inputs = [inputx, inputy, inputz]
-print(the_tree.evaluate(inputs))
-
-copied_tree = the_tree.copy_tree()
-print(copied_tree.print_tree())
-print(copied_tree.print_order())
-copied_tree.component = 'j'
-copied_tree.set_index(2)
-print('copied tree')
-print(copied_tree.print_tree())
-print(copied_tree.print_order())
-print('normal tree')
-print(the_tree.print_tree())
-print(the_tree.print_order())
-
-replacement = treeFactory.generate_tree(2)
-print(replacement.print_tree())
-new_tree = the_tree.replace_tree_at_index(2, replacement)
-print(new_tree.print_tree())
-treeFactory.set_tree_index(new_tree)
-print(new_tree.print_order())
-print(the_tree.print_tree())
-
-
-
-'''
-
-
 
